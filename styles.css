@@ -1,0 +1,91 @@
+body {
+    color: rgb(255, 255, 255);
+    background: srgb(11, 11, 11);
+    margin: 0px;
+    font-family: "Pixelify Sans", sans-serif;
+
+}
+
+
+
+header {
+    border-bottom: solid 2px rgb(251, 254, 252);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    color: rgb(255, 255, 255);
+    background: rgb(8, 8, 8);
+    margin: 0px;
+    font-family: "Mingzat", sans-serif;
+}
+
+header {
+    border-bottom: solid 2px rgb(0, 0, 0);
+    padding: 20px;
+}
+
+.chamada {
+
+    background: rgb(250, 251, 250);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.chamada-texto {
+
+    margin-right: 5%;
+}
+h1 {
+   font-size: 30px;
+   color: rgb(0, 0, 0);
+}
+p {
+    font-size: 10px;
+    color: black;
+}
+img {
+    height: 200px;
+}
+
+.Boykisser-Videos {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: auto;
+    gap: 15px;
+}
+.Boykisser-Videos img {
+    opacity: 0.5;
+}
+.Boykisser-Videos img:hover {
+    opacity: 1.0;
+    border: 1px solid red;
+    transition: 1.5s;
+}
+
+.chamada {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.DDTO {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: auto;
+    gap: 15px;
+}
+
+.DDTO img {
+    opacity: 0.5;
+}
+
+.DDTO img:hover {
+    opacity: 1.0;
+    border: 1px solid red;
+    transition: 1.5s;
+}
